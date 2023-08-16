@@ -1,0 +1,105 @@
+body { background-color: #FF9; }
+
+/* Style du Titre */
+h1 {
+	text-align: center;
+	color: maroon;
+	margin: 0px 0px 25px 0px;
+}
+
+/* Style de l'aide */
+fieldset {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	border: 1px black solid;
+	padding: 5px;
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+
+legend {
+	border: 1px maroon solid;
+	padding: 1px 2px 1px 2px;
+	background-color: white;
+	text-align: center;
+}
+
+/* Style de l'affichage du score */
+#score {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	padding: 5px 15px 5px 5px;
+}
+
+/* Style du panneau de jeu */
+#jeu { color: navy; }
+
+table {
+	border: 2px black solid;
+	padding: 10px;
+}
+
+.rot {
+	cursor: pointer;
+	border: 0px;
+	padding: 0px;
+	background-color: #FF9;
+}
+
+.piece {
+	font-size: xx-large;
+	background-color: gray;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	border-top: 6px #CCC solid;
+	border-right: 6px #666 solid;
+	border-bottom: 6px #333 solid;
+	border-left: 6px #999 solid;
+}
+
+.mobile {
+	background-color: #C93;
+	color: maroon;
+}
+
+.bravo {
+	background-color: blue;
+	color: yellow;
+}
+
+/* Style des ŽlŽments de contr™le du jeu */
+#controle {
+	text-align: center;
+	margin: 5px;
+}
+
+/* Style de la console de sortie */
+.console {
+	text-align: center;
+	color: maroon;
+	margin: 15px;
+	font-size: x-large;
+}
+
+#console { font-style: italic; }
+
+.fini {
+	color: blue;
+	font-size: x-large;
+}
+
+.w3c {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.btnAide { background-color: #CCC; }
+
+.btnJeu {
+	background-color: #CCC;
+	min-width: 25ex;
+}
